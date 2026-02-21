@@ -14,6 +14,13 @@
             font-style: normal;
         }
 
+        @font-face {
+    font-family: 'JoeHandCaps';
+    src: url('assets/fonts/JoeHandCaps-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
         :root {
             --bg: #f6f5f3;
             --text: #1f1f1f;
@@ -71,11 +78,13 @@
             color: var(--accent);
         }
 
-        footer {
-            margin-top: 2.5rem;
-            font-size: 0.85rem;
-            color: var(--muted);
-        }
+footer {
+    font-family: 'JoeHandCaps', sans-serif;
+    margin-top: 2.5rem;
+    font-size: 0.85rem;
+    color: var(--muted);
+}
+        
     </style>
 </head>
 
